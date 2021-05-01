@@ -1,0 +1,312 @@
+
+
+
+.logo-container {
+    width: auto;
+    margin: auto;
+    border: 3px solid white;
+    float: left;
+  }
+  
+  
+  .nav-container {
+    width: auto;
+    margin: auto;
+    border: 3px solid white;
+    float: right;
+  }
+  
+  
+  .navheader2 {
+   width: auto;
+    height: 30px;
+    background-color: #406282;
+    padding-top: 10px;
+  }
+  
+  
+  .nav-container2 {
+    width: auto;
+    margin: auto;
+    border: 3px solid 406282;
+    float: right;
+  }
+
+ 
+  
+  .logo-small.svg {
+  
+       float: left;
+  
+  }
+  
+  .redline {
+   width: 300px;
+    height: 1px;
+    border: 1px red; 
+  }
+  
+  .navheader {
+   width: auto;
+    height: 40px;
+    border: 1px solid white 
+    border-bottom-color: red;
+    padding-top: 10px;
+  }
+  
+  .logo-container {
+  margin-left: 8em
+  }
+  
+  .nav-right {
+    color: white;
+     margin-right: 8em
+    
+  }
+  
+  .nav-about {
+     margin-right: 3em
+  }
+  
+  .nav-skills {
+     margin-right: 3em
+  }
+  
+  .nav-work {
+     margin-right: 3em
+  }
+  
+  .nav-contact {
+     margin-right: 3em
+  }
+  
+  .nav-resume {
+     margin-right: 3em
+  }
+  
+  .nav-digital {
+     margin-right: 3em
+  }
+  
+  .nav-illustrator {
+     margin-right: 3em
+  }
+  
+  .nav-graphic-design {
+     margin-right: 3em
+  }
+  
+  .nav-environmental-design {
+     margin-right: 3em
+  }
+  
+  
+  .about-container {
+  width: auto;
+  height: 415px;
+    margin: auto;
+    border: 1px solid white;
+  }
+  
+  .container {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #3b6282;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #B83224;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .flip-box {
+    background-color: transparent;
+    width: 631px;
+    height: 220px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #6d8ea5;
+    color: white;
+    transform: rotateY(180deg);
+    
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180%;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  .footer {
+  width: auto;
+  height: 225px;
+  margin: auto;
+  border: 1px solid #555658#73AD21;
+  background-color: #555658;
+  }
+  
+  .footer-contact-section {
+    width: 293px;
+    height: 225px;
+    border: 1px solid #555658;
+  }
+  
+  .footer-contact-header {
+    font-size:35px;
+    font-weight: Bold;
+    position:relative; top:10px
+  }
+  
+  .footer-contact-body {
+    position:relative; bottom:18px
+  }
+  
+  .footer-main-nav-section {
+  font-family: Alice;
+  width: 160px;
+  height: 192px;
+  border: 1px solid #555658;
+  padding-top: 2em;
+  }
+  
+  .footer-main-nav-section-2 {
+  font-family: Alice;
+  width: 250px;
+  height: 192px;
+  border: 1px solid #555658;
+  padding-top: 2em;
+  }
+  
+  .footer-main-nav-section-3 {
+  font-family: Alice;
+  width: 160px;
+  height: 192px;
+  border: 1px solid #555658;
+  padding-top: 2em;
+  }
+  
+  
+  .footer{
+   display: flex;
+    justify-content: space-around;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    float: right;
+    padding-right: 3em;
+  }
+  
+  .about-me {
+    width: 300;
+    height: 415px;
+    position: relative;
+  }
+  
+  .about {
+    font-size:35px;
+    font-weight: Bold;
+    width: 100;
+    height: 40px;
+    border: 1px solid white;
+    position: relative;
+    padding-left: 7em;
+   
+  }
+  
+  .goal {
+      line-height: 1.4;
+      position:relative; bottom: 28px;
+      width: 500;
+      height: 220px;
+      border: 1px solid white;
+      float: right;
+      padding-top: 0.2em;
+      padding-right: 34em;
+      
+  }
+  
+  
